@@ -1,0 +1,97 @@
+.landing-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    box-shadow: #6c757d 100px 100px 100px;
+}
+
+#btn {
+    color: black;
+}
+
+#btn:hover {
+    color: aliceblue;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #0d6efd !important;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.offline-badge {
+    display: inline-block;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.display-4 {
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Invoice Preview */
+.invoice-preview {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transform: rotate(2deg);
+    transition: transform 0.3s ease;
+}
+
+.invoice-preview:hover {
+    transform: rotate(0) scale(1.02);
+}
+
+.invoice-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Features Section */
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-outline-secondary {
+    padding: 0.5rem 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .invoice-preview {
+        margin-top: 2rem;
+        max-width: 100%;
+    }
+}
